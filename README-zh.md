@@ -62,10 +62,7 @@ java -jar dst-admin.jar
 
 ### 一键式部署
 ```
-wget http://clouddn.tugos.cn/startDst.sh
-chmod +x ./startDst.sh
-./startDst.sh
-     
+wget -qO- http://clouddn.tugos.cn/startDst.sh | bash
 ```
 
 ## 预览图
